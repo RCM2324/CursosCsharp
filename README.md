@@ -1,7 +1,12 @@
 # CursosCsharp
 
 # Curso CSharp desde cero
+
 ¿Quieres aprender a programar en C# y no sabes por dónde empezar? ¡Este curso de Programación en C# desde CERO es para ti! En este video te enseñamos paso a paso los conceptos fundamentales del lenguaje de programación C#, explicados de forma clara y sencilla, con ejercicios, ideal para quienes no tienen experiencia previa.
+
+
+[Ir a la carpeta local del curso](./CursoCSharp)
+
 
 📘 Temas que cubrimos:
 
