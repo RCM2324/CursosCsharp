@@ -7,6 +7,8 @@
 
 [Ir a la carpeta local del curso](./CursoCSharp)
 
+[Video en youtube de este curso](https://youtu.be/UwqYtz9l4Bk)
+
 
 📘 Temas que cubrimos:
 
