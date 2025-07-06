@@ -67,3 +67,39 @@ dotnet sln .\CursoCsharp.sln add .\7Ficheros\7Ficheros.csproj
 dotnet new console -n 8Exceptions
 dotnet sln .\CursoCsharp.sln add .\8Exceptions\8Exceptions.csproj
 ```
+
+# Curso Construye un Api desde Cero
+
+Construimos un api de alquiler de coches desde cero en .Net con Entity Framework, base de datos MsSql server y uso de migraciones.
+No estamos usando clean code, porque la idea es despeés de esta intruducción a las api, ir refactorizandola y llevarla a una arquitectura hexagonal, con testing y demás.
+
+Comandos vistos en el video:
+```bash
+#creación del proyecto
+dotnet new sln -o CarRentalApi1
+
+cd CarRentalApi1
+dotnet new webapi --use-controllers -n CarRental.Api
+ 
+dotnet sln  add .\CarRental.Api\
+
+# paquetes
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+dotnet add package Microsoft.EntityFrameworkCore.Tools
+dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
+
+# Migraciones de base de datos
+dotnet ef migrations add InitialCreate
+# creamos la base de datos si no existe 
+dotnet ef database update
+
+dotnet ef migrations add AddPriceToRental
+dotnet ef database update
+
+
+
+```
+
+[Ir a la carpeta local del curso](./CarRentalApi1)
+
+[Video en youtube de este curso](https://youtu.be/w3OgRMPZf9s)
