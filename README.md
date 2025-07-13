@@ -50,9 +50,11 @@ Se crean tests unitarios y de integración
 📘 Temas que cubrimos:
 
 * ✅ Thin controlles Fat Models
+* ✅ Dependency Injection
 * ✅ Refactoring y Reutilización de código
 * ✅ Mocks y Tests unitarios
 * ✅ Tests de integración
+* ✅ Covertura de un test
 
 
 [Ir a la carpeta local del curso](./CarRentalApi2)
