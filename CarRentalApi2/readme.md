@@ -1,7 +1,8 @@
 Refactor de la aplicación CarRental1
 
-Se extrae la lógica a un services
-Se crean tests unitatios y de integración
+Se extrae la lógica a un services.
+
+Se crean tests unitarios y de integración
 
 ```
 # generar proyecto

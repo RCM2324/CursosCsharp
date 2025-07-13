@@ -43,8 +43,9 @@ No estamos usando clean code, porque la idea es despeés de esta intruducción a
 
 # Refactoring del Api CarRental
 
-Se extrae la lógica a un services
-Se crean tests unitatios y de integración
+Se extrae la lógica a un services.
+
+Se crean tests unitarios y de integración
 
 📘 Temas que cubrimos:
 
