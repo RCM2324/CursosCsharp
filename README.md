@@ -24,7 +24,7 @@
 
 # Curso Construye un Api desde Cero
 
-Construimos un api de alquiler de coches desde cero en .Net con Entity Framework, base de datos MsSql server y uso de migraciones.
+Construimos el Api CarRental, un api de alquiler de coches desde cero en .Net con Entity Framework, base de datos MsSql server y uso de migraciones.
 No estamos usando clean code, porque la idea es despeés de esta intruducción a las api, ir refactorizandola y llevarla a una arquitectura hexagonal, con testing y demás.
 
 📘 Temas que cubrimos:
@@ -39,3 +39,21 @@ No estamos usando clean code, porque la idea es despeés de esta intruducción a
 [Ir a la carpeta local del curso](./CarRentalApi1)
 
 [Video en youtube de este curso](https://youtu.be/w3OgRMPZf9s)
+
+
+# Refactoring del Api CarRental
+
+Se extrae la lógica a un services
+Se crean tests unitatios y de integración
+
+📘 Temas que cubrimos:
+
+* ✅ Thin controlles Fat Models
+* ✅ Refactoring y Reutilización de código
+* ✅ Mocks y Tests unitarios
+* ✅ Tests de integración
+
+
+[Ir a la carpeta local del curso](./CarRentalApi2)
+
+[Video en youtube de este curso](https://youtu.be/EzluBRt2eNY)
