@@ -14,6 +14,8 @@ Console.WriteLine(contador);
 contador++;
 Console.WriteLine(contador);
 
+//***************************************************************************************************
+
 for (int i = 0; i < 5; i++)
 {
     /* El bucle for inicia en i vale 0
@@ -24,6 +26,8 @@ for (int i = 0; i < 5; i++)
     Console.WriteLine($"Valor de {valorDeI}");
 }
 
+//***************************************************************************************************
+
 int j = 0;
 
 while (j < 5)
@@ -31,6 +35,8 @@ while (j < 5)
     Console.WriteLine($"Valor de j: {j}");
     j++;
 }
+
+//***************************************************************************************************
 
 int k = 0;
 
@@ -40,6 +46,7 @@ do
     k++;
 } while (k < 5);
 
+//***************************************************************************************************
 
 Console.WriteLine("**********************Ejercicios bucle for**********************");
 
@@ -195,3 +202,106 @@ while (a <= 1000)
     a = b;
     b = temp;
 }
+
+Console.WriteLine("**********************Ejercicio do-while**********************");
+
+Console.WriteLine("**********************Ejercicio 1**********************");
+
+// Pide al usuario un número mayor que 100; repite hasta que lo consiga.
+
+int numeroDoWhile;
+
+do
+{
+    Console.WriteLine("Introduce un numero mayor que 100: ");
+
+    numeroDoWhile = int.Parse(Console.ReadLine()!);
+
+
+} while (numeroDoWhile <= 100);
+
+Console.WriteLine($"Has introducido el numero: {numeroDoWhile}, que es mayor que 100");
+
+Console.WriteLine("**********************Ejercicio 2**********************");
+
+//Muestra un menú de opciones y repite hasta que el usuario elija salir.
+
+int opcion;
+
+do
+{
+    Console.WriteLine("Menú de opciones: ");
+    Console.WriteLine("1. Opción 1");
+    Console.WriteLine("2. Opción 2");
+    Console.WriteLine("3. Opción 3");
+    Console.WriteLine("4. Salir");
+    Console.Write("Elige una opción: ");
+    opcion = int.Parse(Console.ReadLine()!);
+} while (opcion != 4);
+
+Console.WriteLine("Has salido del menú");
+
+Console.WriteLine("**********************Ejercicio 3**********************");
+
+// Pide al usuario letras y cuenta cuántas vocales introduce hasta que escriba una ‘x’.
+
+int contarVocal = 0;
+
+char letra;
+
+do
+{
+    Console.WriteLine("Introduce una letra (escribe 'x' para salir): ");
+
+    letra = Console.ReadLine()![0]; // Lee la primera letra introducida
+
+    if ("aeiouAEIOU".Contains(letra)) // Verifica si la letra es una vocal
+    {
+        contarVocal++;
+    }
+} while (char.ToLower(letra) != 'x');
+
+Console.WriteLine($"Has introducido {contarVocal} vocales");
+
+Console.WriteLine("**********************Ejercicio 4**********************");
+
+// Pide al usuario su edad y repite hasta que introduzca un valor válido (mayor que 0).
+
+int edad;
+
+do
+{
+    Console.WriteLine("Introduce tu edad (mayor que 0): ");
+
+    edad = int.Parse(Console.ReadLine()!);
+
+}while (edad <= 0);
+
+Console.WriteLine($"Tu edad es: {edad} años");
+
+Console.WriteLine("**********************Ejercicio 5**********************");
+
+// Pide al usuario números y muestra el mayor introducido; termina cuando escriba -1.
+
+int numeroMayor = int.MinValue;
+
+int numUsuario;
+
+do
+{
+    Console.WriteLine("Introduce un numero (-1 para salir): ");
+
+    numUsuario = int.Parse(Console.ReadLine()!);
+
+    if (numUsuario > numeroMayor && numUsuario != -1)
+    {
+        numeroMayor = numUsuario; // Actualiza el mayor si el número introducido es mayor
+    }
+
+} while (numUsuario != -1);
+
+Console.WriteLine($"El numero mayor introducido es: {numeroMayor}");
+
+
+
+
