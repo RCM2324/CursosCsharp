@@ -113,6 +113,12 @@ double importeConImpuesto = CalcularImpuesto(importe, porcentajeImpuesto);
 Console.WriteLine($"El importe con el impuesto es: {importeConImpuesto}");
 
 // un progema que pida por teclado en un bucle nombres y no acabe ahsta que se ingrese "fin" como nombre
+
+
+
+
 // el programa debera almacenar en una lista de string los nombres que se han ido ingresadno
 // luego debera buscar en esa lista y mostrar si existe o no el nombre "Mario". Utilza funciones
+
+
 
