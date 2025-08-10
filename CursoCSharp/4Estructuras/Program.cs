@@ -174,12 +174,6 @@ for (int i = 0; i < numerosEnteros.Length; i++)
 Console.WriteLine($"La suma de los numeros enteros es: {sumaEnteros}");
 
 
-
-
-
-
-
-
 Console.WriteLine("*************************Listas*************************");
 
 // Crea una lista con los números del 1 al 10.
