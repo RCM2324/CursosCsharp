@@ -176,19 +176,83 @@ Console.WriteLine($"La suma de los numeros enteros es: {sumaEnteros}");
 
 Console.WriteLine("*************************Listas*************************");
 
+Console.WriteLine("*************************Ejercicio1*************************");
+
 // Crea una lista con los números del 1 al 10.
 // Elimina los números pares de la lista.
 // Imprime la lista resultante.
 
+
+List<int> numerosLista = new List<int>();
+
+for (int i = 1; i <= 10; i++)
+{
+    numerosLista.Add(i);
+}
+
+for (int i = numerosLista.Count - 1; i >= 0; i--)
+{
+    if (numerosLista[i] % 2 == 0)
+    {
+        numerosLista.RemoveAt(i);
+    }
+}
+
+Console.WriteLine($"Lista de numeros impares: {string.Join(", ", numerosLista)}");
+
+Console.WriteLine("*************************Ejercicio2*************************");
+// Crea una lista de cadenas de texto.
+// Pide al usuario que ingrese 5 nombres y los agrega a la lista.
+
+List<string> nombresLista = new List<string>();
+
+for (int i = 0; i < 5; i++)
+{
+    Console.WriteLine($"Introduce el nombre {i + 1}:");
+    string nombre = Console.ReadLine();
+    nombresLista.Add(nombre);
+}
+
+Console.WriteLine("Lista de nombres ingresados: " + string.Join(", ", nombresLista));
+
 Console.WriteLine("*************************Diccionarios*************************");
+
+Console.WriteLine("*************************Ejercicio1*************************");
 
 // Crea un diccionario donde la clave sea el nombre de la persona
 // y el valor sea su número de teléfono (como string).
 // Agrega 3 contactos y muestra la agenda completa.
 
+Dictionary<string, string> agenda = new Dictionary<string, string>();
+agenda.Add("Juan", "123-456-789");
+agenda.Add("Ana", "987-654-432");
+agenda.Add("Pedro", "567-890-123");
+
+Console.WriteLine("Agenda:");
+
+foreach (var contacto in agenda)
+{
+    Console.WriteLine($"Nombre: {contacto.Key}, Telefono: {contacto.Value}");
+}
+
+Console.WriteLine("*************************Ejercicio2*************************");
+
 // Usa el diccionario anterior.
 // Pide al usuario que escriba un nombre.
 // Si el nombre existe, muestra el teléfono.
 // Si no, indica que no está en la agenda.
+
+Console.WriteLine("Introduce un nombre para buscar en la agenda:");
+string nombreBuscar = Console.ReadLine();
+
+if (agenda.ContainsKey(nombreBuscar))
+{
+    Console.WriteLine($"El telefono de {nombreBuscar} es: {agenda[nombreBuscar]}");
+}
+else
+{
+    Console.WriteLine($"El nombre {nombreBuscar} no esta en la agenda");
+}
+
 
 
