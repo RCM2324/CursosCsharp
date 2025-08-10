@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2Condicionales", "2Condicio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3Bucles", "3Bucles\3Bucles.csproj", "{65A39E95-7C33-4CF6-98FA-73CFCC01DAC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4Estructuras", "4Estructuras\4Estructuras.csproj", "{F95126B5-F41C-4382-AC5D-7609FE5F4497}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{65A39E95-7C33-4CF6-98FA-73CFCC01DAC3}.Release|x64.Build.0 = Release|Any CPU
 		{65A39E95-7C33-4CF6-98FA-73CFCC01DAC3}.Release|x86.ActiveCfg = Release|Any CPU
 		{65A39E95-7C33-4CF6-98FA-73CFCC01DAC3}.Release|x86.Build.0 = Release|Any CPU
+		{F95126B5-F41C-4382-AC5D-7609FE5F4497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F95126B5-F41C-4382-AC5D-7609FE5F4497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F95126B5-F41C-4382-AC5D-7609FE5F4497}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F95126B5-F41C-4382-AC5D-7609FE5F4497}.Debug|x64.Build.0 = Debug|Any CPU
+		{F95126B5-F41C-4382-AC5D-7609FE5F4497}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F95126B5-F41C-4382-AC5D-7609FE5F4497}.Debug|x86.Build.0 = Debug|Any CPU
+		{F95126B5-F41C-4382-AC5D-7609FE5F4497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F95126B5-F41C-4382-AC5D-7609FE5F4497}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F95126B5-F41C-4382-AC5D-7609FE5F4497}.Release|x64.ActiveCfg = Release|Any CPU
+		{F95126B5-F41C-4382-AC5D-7609FE5F4497}.Release|x64.Build.0 = Release|Any CPU
+		{F95126B5-F41C-4382-AC5D-7609FE5F4497}.Release|x86.ActiveCfg = Release|Any CPU
+		{F95126B5-F41C-4382-AC5D-7609FE5F4497}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
